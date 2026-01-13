@@ -123,7 +123,7 @@ input:checked + .slider:before {
     align-items: center;
     justify-content: center;
     margin: 15px 0 5px;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 .verified-svg {
@@ -224,5 +224,6 @@ input:checked + .slider:before {
 }
 
 .rotate { animation: rotation 5s infinite linear; }
+
 
 @keyframes rotation { from { transform: rotate(0deg); } to { transform: rotate(359deg); } }
