@@ -185,9 +185,9 @@ input:checked + .slider:before {
 
 .text { display: flex; flex-direction: column; }
 
-.text strong { color: var(--text-primary); font-size: 0.9rem; }
+.text strong { color: var(--text-primary); font-size: 0.8rem; }
 
-.text span { color: var(--text-secondary); font-size: 0.7rem; }
+.text span { color: var(--text-secondary); font-size: 0.5rem; }
 
 .arrow { color: var(--text-secondary); font-size: 0.8rem; }
 
@@ -347,4 +347,5 @@ input:checked + .slider:before {
 
 
 @keyframes rotation { from { transform: rotate(0deg); } to { transform: rotate(359deg); } }
+
 
